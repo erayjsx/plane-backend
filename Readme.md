@@ -1,0 +1,77 @@
+
+# PlaneScape
+
+
+
+
+
+## Tech Stack
+
+**Client:** React, Zustand, Loadash, TailwindCSS, HeadlessUI, 
+
+**Server:** Node, Express, Mongoose
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/erayjsx/plane.git
+```
+
+Go to the project directory
+
+```bash
+cd plane
+```
+
+Install dependencies
+
+```bash
+pnpm install
+```
+
+Start the project
+
+```bash
+pnpm dev
+```
+
+## Run Backend
+
+
+Go to the backend directory
+
+```bash
+git clone https://github.com/erayjsx/plane-backend.git
+```
+
+```bash
+cd plane-backend
+```
+
+Install dependencies
+
+```bash
+pnpm install
+```
+
+Start the server
+
+```bash
+nodemon app.mjs
+```
+
+
+## Screenshots
+
+![Home Screen](https://i.ibb.co/mSP3w4t/localhost-5173.png)
+
+![My Flight Screen](https://i.ibb.co/ZB5Y6Xm/localhost-5173-my-flights.png)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
