@@ -13,14 +13,14 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // React uygulamanın çalıştığı URL
-    credentials: true, // Token bazlı işlemlerde gereklidir (isteğe bağlı)
+    origin: "http://localhost:5173", // frontend çalıştığı URL
+    credentials: true,
   })
 );
 
-app.use(json()); // JSON isteği gövdesini ayrıştır
+app.use(json());
 
-// MongoDB bağlantısını sağla
+// MongoDB bağlantısıß
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGODB_URI);
@@ -34,10 +34,9 @@ const connectDB = async () => {
 // Bağlantıyı başlat
 connectDB();
 
-// API yollarını tanımla
+// API
 app.use("/api/auth", authRoutes);
 app.use("/api/flights", flightRoutes);
 
-// Sunucuyu dinlemeye başla
 const PORT = process.env.PORT || 2000;
 app.listen(PORT, () => console.log(`Sunucu ${PORT} portunda çalışıyor`));

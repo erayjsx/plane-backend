@@ -1,12 +1,12 @@
 import { Router } from "express";
 import User from "../models/User.js";
-import jwt from 'jsonwebtoken';
+import jwt from "jsonwebtoken";
 
 const { sign } = jwt;
 
 const router = Router();
 
-// Kullanıcı kaydı
+// kullanıcı kayıt olma
 router.post("/register", async (req, res) => {
   const { username, password } = req.body;
   try {
@@ -18,7 +18,7 @@ router.post("/register", async (req, res) => {
   }
 });
 
-// Kullanıcı girişi
+// Kullanıcı giriş yapma
 router.post("/login", async (req, res) => {
   const { username, password } = req.body;
   const user = await User.findOne({ username });
