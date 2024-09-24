@@ -7,7 +7,7 @@
 
 ## Tech Stack
 
-**Client:** React, Zustand, Loadash, TailwindCSS, HeadlessUI, 
+**Client:** React, Zustand, Lodash, TailwindCSS, HeadlessUI, 
 
 **Server:** Node, Express, Mongoose
 
