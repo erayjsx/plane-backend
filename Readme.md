@@ -66,7 +66,7 @@ nodemon app.mjs
 
 ## Screenshots
 
-![Home Screen](https://i.ibb.co/MGz1yxQ/localhost-5173-1.png)
+![Home Screen](https://i.ibb.co/7R3pxdL/localhost-5173-1.png)
 
 ![My Flight Screen](https://i.ibb.co/ZB5Y6Xm/localhost-5173-my-flights.png)
 
