@@ -64,6 +64,12 @@ nodemon app.mjs
 ```
 
 
+#### Demo
+
+username: eray
+password: 12345
+
+
 ## Screenshots
 
 ![Home Screen](https://i.ibb.co/7R3pxdL/localhost-5173-1.png)
